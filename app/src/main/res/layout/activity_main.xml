@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/open_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="OPEN WEBSITE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/open_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="OPEN LOCATION"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/share_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SHARE TEXT CONTENT"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/phone_dialer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="OPEN PHONE DIALER"
+        android:textSize="24sp" />
+</LinearLayout>
