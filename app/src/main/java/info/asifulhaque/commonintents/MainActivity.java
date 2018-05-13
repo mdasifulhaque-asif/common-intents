@@ -37,6 +37,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+
+    public void sharText(String text){
+
+    }
+
     /**
      * @param url pass url with Button
      */
